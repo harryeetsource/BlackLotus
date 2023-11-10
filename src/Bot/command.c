@@ -3,9 +3,9 @@
 #include <stdio.h>
 #endif
 
-#include "nzt.h"
+#include "..\Shared\nzt.h"
 #include "command.h"
-#include "utils.h"
+#include "..\Shared\utils.h"
 
 VOID CommandExecute(
 	COMMANDS Command, 

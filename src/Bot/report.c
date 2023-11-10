@@ -4,14 +4,14 @@
 #endif
 
 #include "report.h"
-#include "config.h"
+#include "..\Shared\config.h"
 #include "http.h"
-#include "nzt.h"
-#include "crt.h"
-#include "utils.h"
+#include "..\Shared\nzt.h"
+#include "..\Shared\crt.h"
+#include "..\Shared\utils.h"
 #include "globals.h"
 #include "command.h"
-#include "strings.h"
+#include "..\Shared\strings.h"
 
 long _atoi(const char* S)
 {

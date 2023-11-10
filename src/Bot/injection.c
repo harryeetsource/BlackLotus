@@ -1,7 +1,7 @@
 #include <Windows.h>
 
-#include "nzt.h"
-#include "utils.h"
+#include "..\Shared\nzt.h"
+#include "..\Shared\utils.h"
 
 LPVOID GetImageBase(LPVOID ProcessAddress)
 {

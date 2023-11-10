@@ -4,12 +4,12 @@
 #include <stdio.h>
 #endif
 
-#include "nzt.h"
-#include "crt.h"
+#include "..\Shared\nzt.h"
+#include "..\Shared\crt.h"
 #include "globals.h"
-#include "guid.h"
-#include "utils.h"
-#include "config.h"
+#include "..\Shared\utils.h"
+#include "..\Shared\guid.h"
+#include "..\Shared\config.h"
 
 DWORD	 g_CurrentProcessId		= 0;
 LPWSTR	 g_CurrentProcessPath	= 0;

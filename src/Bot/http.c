@@ -1,9 +1,9 @@
 #include <Windows.h>
 #include <Wininet.h>
 
-#include "nzt.h"
+#include "..\Shared\nzt.h"
 #include "http.h"
-#include "utils.h"
+#include "..\Shared\utils.h"
 
 HINTERNET HttpConnect(
 	LPSTR UserAgent, 

@@ -1,8 +1,8 @@
 #include <Windows.h>
 
 #include "antidebug.h"
-#include "nzt.h"
-#include "utils.h"
+#include "..\Shared\nzt.h"
+#include "..\Shared\utils.h"
 
 BOOL IsBeingDebuggedAlt()
 {
